@@ -25,7 +25,7 @@ const Section5 = () => {
 
               <p className="sec-sub-title"> Entre los mejores dispositivos extras y mas utilizados </p>
               <p className="sec-sub-title">Escaner ADS-1700W </p>
-              <div style={{ display: "flex", marginTop: 32 }}>
+              <div style={{ display: "flex",flexWrap: "wrap", marginTop: 32 }}>
                   <div className="col-12 col-md-4">
 
                       <p>
@@ -37,7 +37,7 @@ const Section5 = () => {
                           convenga.
             </p>
                   </div>
-                  <div className="col-12 col-md-8 d-flex">
+                  <div className="col-12 col-md-8">
                       <div
                           style={{
                               borderRadius: 16,
@@ -61,7 +61,7 @@ const Section5 = () => {
               {/* Extra 2  */}  
 
               <p className="sec-sub-title">Elgato Stream Deck XL</p>
-              <div style={{ display: "flex", marginTop: 32 }}>
+              <div style={{ display: "flex",flexWrap: "wrap", marginTop: 32 }}>
                   <div className="col-12 col-md-8">
                       <div
                           style={{
@@ -95,7 +95,7 @@ const Section5 = () => {
 
               {/* extra  3  */}
               <p className="sec-sub-title">Gamepad  </p>
-              <div style={{ display: "flex", marginTop: 30 }}>
+              <div style={{ display: "flex",flexWrap: "wrap", marginTop: 30 }}>
                   <div className="col-12 col-md-4">
 
                       <p>
@@ -105,7 +105,7 @@ const Section5 = () => {
             </p>
                      
                   </div>
-                  <div className="col-12 col-md-8 d-flex">
+                  <div className="col-12 col-md-8">
                       <div
                           style={{
                               borderRadius: 16,

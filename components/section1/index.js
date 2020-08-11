@@ -209,7 +209,7 @@ const Section1 = () => {
           ></iframe>
         </div>
 
-        <div style={{ display: "flex", marginTop: 32 }}>
+        <div style={{ display: "flex",flexWrap: "wrap", marginTop: 32 }}>
           <div className="col-12 col-md-6">
           <p style={{fontWeight: "bold", marginTop: 16}}>Cual es el mejor tecladao para un PROGRAMADOR</p>
             <p>
@@ -218,7 +218,7 @@ const Section1 = () => {
               fundamental, y de uso diario.
             </p>
           </div>
-          <div className="col-12 col-md-6 d-flex">
+          <div className="col-12 col-md-6">
             <div
               style={{
                 borderRadius: 16,
