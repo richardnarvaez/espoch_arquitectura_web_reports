@@ -29,15 +29,15 @@ export default (req, res) => {
     ],
     productos: [
       {
-        _id: "p-1",
-        title: "WISFOX Full-Size",
+        _id: "p-2",
+        title: "KBDfans TOFU Keyboard",
         category: "keyboard",
-        description: "Teclado economico",
-        price: "33.99$",
+        description:
+          "Teclados personalizados para nivel competitivo principalemente",
+        price: "3500$",
         photo:
-          "https://m.media-amazon.com/images/I/71+DZvi3dGL._AC_UY436_FMwebp_QL65_.jpg",
-        link:
-          "https://www.amazon.com/Wireless-Keyboard-Full-Size-Desktops-Computer/dp/B07XDWCLYF/ref=sr_1_1_sspa?dchild=1&keywords=keyboard&qid=1597124226&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFXQVA2WVRJVEMxWUcmZW5jcnlwdGVkSWQ9QTA1MTE2MTZRSlg1ODhTSkxPTEImZW5jcnlwdGVkQWRJZD1BMDY0MTM4ODI3NUhTSkFSQURXQzAmd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl",
+          "https://cdn.vox-cdn.com/thumbor/KzeuDJ3s0X3GmgxUJKqoyfTXKHQ=/0x0:2313x1211/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19655045/tht.png",
+        link: "https://www.youtube.com/watch?v=u3Fy4PkpTVs",
       },
       {
         _id: "p-2",
@@ -51,16 +51,17 @@ export default (req, res) => {
           "https://www.keychron.com/products/keychron-k6-wireless-mechanical-keyboard",
       },
       {
-        _id: "p-2",
-        title: "KBDfans TOFU Keyboard",
+        _id: "p-1",
+        title: "WISFOX Full-Size",
         category: "keyboard",
-        description:
-          "Teclados personalizados para nivel competitivo principalemente",
-        price: "3500$",
+        description: "Teclado economico",
+        price: "33.99$",
         photo:
-          "https://cdn.vox-cdn.com/thumbor/KzeuDJ3s0X3GmgxUJKqoyfTXKHQ=/0x0:2313x1211/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19655045/tht.png",
-        link: "https://www.youtube.com/watch?v=u3Fy4PkpTVs",
+          "https://m.media-amazon.com/images/I/71+DZvi3dGL._AC_UY436_FMwebp_QL65_.jpg",
+        link:
+          "https://www.amazon.com/Wireless-Keyboard-Full-Size-Desktops-Computer/dp/B07XDWCLYF/ref=sr_1_1_sspa?dchild=1&keywords=keyboard&qid=1597124226&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFXQVA2WVRJVEMxWUcmZW5jcnlwdGVkSWQ9QTA1MTE2MTZRSlg1ODhTSkxPTEImZW5jcnlwdGVkQWRJZD1BMDY0MTM4ODI3NUhTSkFSQURXQzAmd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl",
       },
+      
       {
         _id: "p-2",
         title: "Logitech G903",
@@ -96,14 +97,14 @@ export default (req, res) => {
       },
       {
         _id: "p-2",
-        title: "Webcam Cámara Web Hd",
+        title: "Logitech C922 Pro Stream",
         category: "camara",
         description: "dasd",
-        price: "$17",
+        price: "$195",
         photo:
-          "https://http2.mlstatic.com/camaras-web-hd-web-cam-1280-x-720-teletrabajo-zoom-pc-laptop-D_NQ_NP_758674-MEC42202858400_062020-F.webp",
+          "https://images-na.ssl-images-amazon.com/images/I/41GLG9%2B-M4L._AC_SX355_.jpg",
         link:
-          "https://articulo.mercadolibre.com.ec/MEC-426064099-webcam-camara-web-hd-720p-microfono-pc-laptop-teletrabajo-_JM",
+          "https://www.amazon.com/Logitech-Stream-Streaming-Recording-Included/dp/B01MTTMPKT",
       },
       {
         _id: "p-2",
@@ -116,16 +117,17 @@ export default (req, res) => {
         link:
           "https://www.amazon.es/AUKEY-Micr%C3%B3fono-Est%C3%A9reo-Grabaci%C3%B3n-Compatible/dp/B0721MKXQ2",
       },
+      
       {
         _id: "p-2",
-        title: "Logitech C922 Pro Stream",
+        title: "Webcam Cámara Web Hd",
         category: "camara",
         description: "dasd",
-        price: "$195",
+        price: "$17",
         photo:
-          "https://images-na.ssl-images-amazon.com/images/I/41GLG9%2B-M4L._AC_SX355_.jpg",
+          "https://http2.mlstatic.com/camaras-web-hd-web-cam-1280-x-720-teletrabajo-zoom-pc-laptop-D_NQ_NP_758674-MEC42202858400_062020-F.webp",
         link:
-          "https://www.amazon.com/Logitech-Stream-Streaming-Recording-Included/dp/B01MTTMPKT",
+          "https://articulo.mercadolibre.com.ec/MEC-426064099-webcam-camara-web-hd-720p-microfono-pc-laptop-teletrabajo-_JM",
       },
       {
         _id: "p-2",
