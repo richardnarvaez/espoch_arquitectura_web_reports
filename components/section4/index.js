@@ -130,8 +130,8 @@ const Section4 = () => {
             >
               <img
                 width="100%"
-                style={{ position: "absolute", top: 0, height: "101%" }}
-                src="https://lh3.googleusercontent.com/proxy/oB7mTcOivaZkb5l8tZKWyzQGTRERkGznML81y4beZmb3YBEP_GvQIhKxGZdJmWw8KSfFJwXvM2mj_apmz9EnsmAYzp5n-0o_4XLvwAwRJkcL18bGNK6ONDHDlf-uMEKsLIQbyy9EaP3DD0h5k_Cxr2YFZp8"
+                style={{ position: "absolute", top: 0, height: "101%", objectFit: "cover"}}
+                src="https://smhttp-ssl-43310.nexcesscdn.net/media/extendware/ewimageopt/media/inline/6b/7/shure-mv5-ltg-mv5-digital-condenser-microphone-in-gray-with-usb-lightning-cable-c77.jpg"
               />
             </div>
           </div>
@@ -229,7 +229,7 @@ const Section4 = () => {
             >
               <img
                 width="100%"
-                style={{ position: "absolute", top: 0, height: "101%" }}
+                style={{ position: "absolute", top: 0, height: "101%",objectFit: "contain" }}
                 src="https://images-na.ssl-images-amazon.com/images/I/51KYOFKC80L._AC_SL1122_.jpg"
               />
             </div>

@@ -240,7 +240,7 @@ const Section2 = () => {
            <img
            style={{ position: "absolute", top: 0, height: "100%" }}
            className="sec-img"
-           src="http://ar.geniusnet.com/wp-content/uploads/sites/2/2020/01/DX-125_P9_980x600.jpg"
+           src="https://http2.mlstatic.com/mouse-genius-wired-dx-125-usb-black-g5-D_NQ_NP_693723-MEC32197754164_092019-F.jpg"
                   />
               </div>
         <table

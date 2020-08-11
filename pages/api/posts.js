@@ -143,7 +143,7 @@ export default (req, res) => {
         description: "e calidad media pero apto para todo",
         price: "99,98$",
         photo:
-          "https://lh3.googleusercontent.com/proxy/oB7mTcOivaZkb5l8tZKWyzQGTRERkGznML81y4beZmb3YBEP_GvQIhKxGZdJmWw8KSfFJwXvM2mj_apmz9EnsmAYzp5n-0o_4XLvwAwRJkcL18bGNK6ONDHDlf-uMEKsLIQbyy9EaP3DD0h5k_Cxr2YFZp8",
+          "https://smhttp-ssl-43310.nexcesscdn.net/media/extendware/ewimageopt/media/inline/6b/7/shure-mv5-ltg-mv5-digital-condenser-microphone-in-gray-with-usb-lightning-cable-c77.jpg",
         link:
           "https://es.shure.com/productos/microfonos/motiv/microfono-de-condensador-digital-mv5",
       },
