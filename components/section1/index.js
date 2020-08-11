@@ -196,7 +196,7 @@ const Section1 = () => {
           </div>
         </div>
         <div>
-        <p style={{fontWeight: "bold", marginTop: 16}}>Comparacion de sonido</p>
+        <p style={{fontWeight: "bold", marginTop: 16}}>Comparacion de sonido (Min. 5:17)</p>
           
 
           <iframe
