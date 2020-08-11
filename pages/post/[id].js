@@ -21,7 +21,7 @@ export default function Post() {
     if (id)
       axios({
         method: "get",
-        url: `http://localhost:3000/api/${id}`,//`https://web-reports.vercel.app/api/${id}`,
+        url: `https://web-reports.vercel.app/api/${id}`, //`http://localhost:3000/api/${id}`
       })
         .then((res) => {
           setData(res.data);
