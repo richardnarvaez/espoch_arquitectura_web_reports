@@ -21,7 +21,7 @@ export default function Post() {
     if (id)
       axios({
         method: "get",
-        url: `http://localhost:3000/api/${id}`,
+        url: `https://web-reports.vercel.app/api/${id}`,
       })
         .then((res) => {
           setData(res.data);
@@ -210,7 +210,10 @@ export default function Post() {
           <Section1 />
 
           <div className="d-flex mt-5" style={{ alignItems: "center" }}>
-            <ProfileChip name="Otro" code="6666" />
+            <ProfileChip
+              name={data.author[1].name}
+              code={data.author[1].code}
+            />
             <div
               style={{ width: "100%", height: 1, background: "#ececec" }}
             ></div>
@@ -218,6 +221,15 @@ export default function Post() {
 
           <Section2 />
 
+          <div className="d-flex mt-5" style={{ alignItems: "center" }}>
+            <ProfileChip
+              name={data.author[2].name}
+              code={data.author[2].code}
+            />
+            <div
+              style={{ width: "100%", height: 1, background: "#ececec" }}
+            ></div>
+          </div>
           <Section3 />
 
           <div className="d-flex mt-5" style={{ alignItems: "center" }}>

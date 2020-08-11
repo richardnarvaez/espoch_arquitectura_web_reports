@@ -3,7 +3,6 @@ const Section1 = () => {
   return (
     <>
       <article>
-
         <div className="sec-169">
           <div
             style={{
@@ -34,8 +33,8 @@ const Section1 = () => {
                 VER VIDEO
               </a>
             </div>
-                          </div>
-                       
+          </div>
+
           <img
             style={{ position: "absolute", top: 0, height: "100%" }}
             className="sec-img"
@@ -46,54 +45,115 @@ const Section1 = () => {
         <div>
           <div className="product-def">
             <div>
-              <p className="sec-sub-title">MxMASTER</p>
+              <p className="sec-sub-title">WISFOX Full-Size</p>
               <p className="sec-post">
-                Aquí ya entramos en un terreno donde los precios pueden rondar
-                los miles de dólares y normalmente son para uso profesional o
-                competitivo en muchos casos
+                Empezamos con los mas baratos, y los que veriamos en la mayoria
+                de ocasiones en centros educativos. O en paquetes de regalo que
+                llegan con la compra del PC.
               </p>
 
               <p className="sec-post">
-                Y a pesar de que algunos no son muy funcionales suelen ser
-                bastante vistosos y divertidos.
+                Normalmente de MEMBRANA o mecanicos de BAJA calidad y mala
+                contrucción.
               </p>
+
+              <div className="sec-169" style={{ paddingTop: "20%" }}>
+                <img
+                  className="sec-img"
+                  style={{
+                    position: "absolute",
+                    top: 0,
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  src="https://m.media-amazon.com/images/I/71+DZvi3dGL._AC_UY436_FMwebp_QL65_.jpg"
+                />
+              </div>
+
+              <div className="sec-169" style={{ paddingTop: "20%" }}>
+                <img
+                  className="sec-img"
+                  style={{
+                    position: "absolute",
+                    top: 0,
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  src="https://techguided.com/wp-content/uploads/2018/09/Mechanical-Switch-Comparison.gif"
+                />
+              </div>
+
+              <div className="sec-169" style={{ paddingTop: "20%" }}>
+                <img
+                  className="sec-img"
+                  style={{
+                    position: "absolute",
+                    top: 0,
+                    height: "100%",
+                  }}
+                  src="https://i0.wp.com/keyboardkings.com/wp-content/uploads/2020/03/Are-Membrane-Keyboards-Linear-or-Tactile.jpg?fit=800%2C583&ssl=1"
+                />
+              </div>
             </div>
-
           </div>
- </div>
+        </div>
 
         <div>
           <div className="product-def">
             <div>
-              <p className="sec-sub-title">MxMASTER</p>
+              <p className="sec-sub-title">Keychron K6</p>
               <p className="sec-post">
-                Aquí ya entramos en un terreno donde los precios pueden rondar
-                los miles de dólares y normalmente son para uso profesional o
-                competitivo en muchos casos
+                En esta gama de precios nos podemos encontrar con el MAgic
+                Keyboard o el Keychron K6 que normalmente son utilizados para
+                AMBIENTES profesionales.
               </p>
 
-              <p className="sec-post">
-                Y a pesar de que algunos no son muy funcionales suelen ser
-                bastante vistosos y divertidos.
-              </p>
+              <div className="sec-169" style={{ paddingTop: "50%" }}>
+                <img
+                  className="sec-img"
+                  style={{
+                    position: "absolute",
+                    top: 0,
+                    height: "100%",
+                  }}
+                  src="https://underkg.co.kr:44391/files/attach/images/118/547/681/002/9dcd5ad6166dd2af86567a1c24cc2ce8.jpg"
+                />
+              </div>
             </div>
-
           </div>
-
-         </div>
+        </div>
 
         <div>
           <div className="product-def">
             <div>
-              <p className="sec-sub-title">MxMASTER</p>
+              <p className="sec-sub-title">TECLADOS PERSONALIZADOS</p>
               <p className="sec-post">
                 Aquí ya entramos en un terreno donde los precios pueden rondar
                 los miles de dólares y normalmente son para uso profesional o
                 competitivo en muchos casos
               </p>
 
+              <div className="sec-169" style={{ paddingTop: "50%" }}>
+                <img
+                  className="sec-img"
+                  style={{
+                    position: "absolute",
+                    top: 0,
+                    height: "100%",
+                  }}
+                  src="  https://cdn.vox-cdn.com/thumbor/KzeuDJ3s0X3GmgxUJKqoyfTXKHQ=/0x0:2313x1211/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19655045/tht.png"
+                />
+              </div>
+
+              <p className="sec-post mt-4">
+                Aqui se abre un mundo completamente diferente, ya que pueden
+                existir millones de variantes. Pero los teclados pueden ir desde
+                los 200$ hasta facilmente tocar los 10mil$
+              </p>
+
+              <p style={{fontWeight: "bold", marginTop: 16}}>KEYCAPS & CABLES</p>
               <p className="sec-post">
-                Y a pesar de que algunos no son muy funcionales suelen ser
+                El nivel de personalizacion y los precios pueden llegar a ser bastante sorprendentes y a pesar de que algunos no son muy funcionales suelen ser
                 bastante vistosos y divertidos.
               </p>
             </div>
@@ -133,19 +193,25 @@ const Section1 = () => {
                 />
               </div>
             </div>
-        
           </div>
-
         </div>
         <div>
-        <p> Comparaacion de sonido</p>
-           
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/XlCzcJNq9co" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p style={{fontWeight: "bold", marginTop: 16}}>Comparacion de sonido</p>
+          
+
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/XlCzcJNq9co"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
         </div>
 
         <div style={{ display: "flex", marginTop: 32 }}>
           <div className="col-12 col-md-6">
-            <p>Cual es el mejor tecladao para un PROGRAMADOR</p>
+          <p style={{fontWeight: "bold", marginTop: 16}}>Cual es el mejor tecladao para un PROGRAMADOR</p>
             <p>
               Una pregunta, que quizas en el ambito profesional es muy comunun
               sonbre todo en profesiones en las que el teclado es una parte

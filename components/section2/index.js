@@ -117,10 +117,7 @@ const Section2 = () => {
           </thead>
           <tbody>
             <tr>
-              <td>Tipo de mouse</td>
-              <td>SteelSeries rival 650</td>
-            </tr>
-            <tr>
+        
               <td>Sensor</td>
               <td>
                 Primario TrueMove3 secundario profundidad dedicado para
@@ -169,6 +166,8 @@ const Section2 = () => {
                   científica
 
         </p>
+
+        
 
         <div className="sec-169" style={{paddingTop: "52%"}}>          
           <img
